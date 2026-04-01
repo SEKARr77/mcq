@@ -1,0 +1,41 @@
+Subject: Computer Networks
+
+Q1. The OSI model has how many layers?
+a) 5 b) 6 c) 7 d) 8
+Ans: c
+
+Q2. The layer responsible for reliable delivery and error checking in TCP/IP is:
+a) Network b) Transport c) Application d) Data Link
+Ans: b
+
+Q3. ARP maps which addresses?
+a) MAC to IP b) IP to MAC c) URL to IP d) IP to Domain Name
+Ans: b
+
+Q4. TCP is:
+a) Connectionless b) Connection-oriented c) Used for streaming real-time video mostly d) Slower than IP internally
+Ans: b
+
+Q5. Which topology connects every node to a central switch/hub?
+a) Bus b) Ring c) Star d) Mesh
+Ans: c
+
+Q6. IPv4 addressing mechanism uses how many bits?
+a) 16 b) 32 c) 64 d) 128
+Ans: b
+
+Q7. A router operates at which OSI layer?
+a) Physical b) Data Link c) Network d) Transport
+Ans: c
+
+Q8. DNS resolves:
+a) MAC to IP b) Domain names to IP addresses c) IP to MAC d) Ports to IPs
+Ans: b
+
+Q9. Checksums are primarily used to detect:
+a) Intrusions b) Data corruption c) High latency d) Congestion
+Ans: b
+
+Q10. The default port for HTTPS is:
+a) 80 b) 21 c) 443 d) 25
+Ans: c

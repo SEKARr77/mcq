@@ -1,0 +1,41 @@
+Subject: Cryptography and Network Security
+
+Q1. AES stands for:
+a) Asymmetric Encryption Standard b) Advanced Encryption System c) Advanced Encryption Standard d) Applied Encryption Standard
+Ans: c
+
+Q2. In symmetric-key encryption:
+a) The sender and receiver share the same secret key b) There is a public and private key c) Keys are generated randomly for every packet d) Keys are sent plainly over the internet layer
+Ans: a
+
+Q3. Which algorithm is a prominent public-key asymmetric algorithm?
+a) DES b) AES c) RSA d) MD5
+Ans: c
+
+Q4. In public-key cryptography, to enforce confidentiality, the sender encrypts data using:
+a) Receiver's public key b) Sender's private key c) Receiver's private key d) Sender's public key
+Ans: a
+
+Q5. A hash function transforms data into a fixed-size string of characters. A key property is:
+a) It is easily reversible b) It is collision-resistant c) It always outputs different sizes d) It only accepts integers
+Ans: b
+
+Q6. Which of the following provides secure communication over a network securely by encrypting HTTP?
+a) FTP b) SSH c) SSL/TLS d) SMTP
+Ans: c
+
+Q7. In a Man-in-the-Middle (MITM) attack, the attacker:
+a) Denies service to the server b) Intercepts and potentially alters communications between two parties c) Floods the network with pings d) Brute forces passwords directly
+Ans: b
+
+Q8. A Digital Signature provides:
+a) Confidentiality only b) Availability c) Authentication and Non-repudiation d) Phishing protection
+Ans: c
+
+Q9. A firewall's primary purpose is to:
+a) Scan for viruses in emails b) Encrypt all traffic to the internet c) Control incoming and outgoing network traffic based on rules d) Boost internet speed
+Ans: c
+
+Q10. Symmetric encryption is generally:
+a) Slower than asymmetric encryption b) Faster than asymmetric encryption c) Not used anymore d) Very inefficient for large data streams
+Ans: b

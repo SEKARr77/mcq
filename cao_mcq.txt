@@ -1,0 +1,41 @@
+Subject: Computer Architecture and Organization (CAO)
+
+Q1. Which memory has the shortest access time?
+a) Cache b) Main Memory c) Registers d) Magnetic Disk
+Ans: c
+
+Q2. RISC stands for:
+a) Reduced Instruction Set Computer b) Rapid Instruction Set Computer c) Real Instruction Set Computer d) Relocatable Instruction Set Computer
+Ans: a
+
+Q3. A pipeline hazard that occurs due to data dependencies is called:
+a) Structural hazard b) Control hazard c) Data hazard d) Branch hazard
+Ans: c
+
+Q4. Which mapping method maps a main memory block to a single specific cache line?
+a) Fully associative b) Direct mapping c) Set-associative d) Dynamic mapping
+Ans: b
+
+Q5. In Immediate addressing mode, the operand:
+a) Is in memory b) Is stored in a register c) Is explicitly given in the instruction d) Depends on the PC
+Ans: c
+
+Q6. The component responsible for arithmetic and logic operations is:
+a) Control Unit b) Memory Unit c) ALU d) I/O Unit
+Ans: c
+
+Q7. Virtual memory is implemented using:
+a) Registers b) Cache c) Hard drive as an extension of RAM d) SSDs only
+Ans: c
+
+Q8. DMA is primarily used for:
+a) High-speed CPU calculations b) Direct memory transfer by I/O devices without CPU involvement c) Storing cache d) Halting the system
+Ans: b
+
+Q9. The Von Neumann architecture bottleneck is caused largely by:
+a) The ALU b) Shared bus for instructions and data c) High clock speeds d) Multiple processors
+Ans: b
+
+Q10. The Program Counter (PC) stores the:
+a) Instruction currently executing b) Result of the ALU c) Address of the next instruction to be fetched d) Stack pointer
+Ans: c

@@ -1,0 +1,41 @@
+Subject: Database Management Systems (DBMS)
+
+Q1. Who proposed the relational model for databases?
+a) E.F. Codd b) Charles Babbage c) Ada Lovelace d) Alan Turing
+Ans: a
+
+Q2. Which normal form eliminates transitive dependencies?
+a) 1NF b) 2NF c) 3NF d) BCNF
+Ans: c
+
+Q3. The ACID properties include Atomicity, Consistency, Isolation, and:
+a) Dependence b) Database c) Durability d) Detection
+Ans: c
+
+Q4. Which SQL statement is used to remove a table entirely from the database?
+a) DELETE TABLE b) DROP TABLE c) TRUNCATE TABLE d) REMOVE TABLE
+Ans: b
+
+Q5. A primary key is used to:
+a) Link tables b) Allow null records c) Uniquely identify a record in a table d) Optimize reading speeds solely
+Ans: c
+
+Q6. In ER diagrams, weak entities are represented by:
+a) Single rectangle b) Double rectangle c) Diamond d) Double ellipse
+Ans: b
+
+Q7. B-trees are mostly used for:
+a) File searching b) Database indexing c) Graph algorithms d) String matching
+Ans: b
+
+Q8. Which language is used for defining table schemas?
+a) DML b) DCL c) DDL d) TCL
+Ans: c
+
+Q9. A foreign key enforces:
+a) Referential integrity b) Domain integrity c) Entity integrity d) Check constraints
+Ans: a
+
+Q10. A transaction that successfully completes all its operations enters the:
+a) Partially committed state b) Aborted state c) Committed state d) Active state
+Ans: c

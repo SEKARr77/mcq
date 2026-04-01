@@ -1,0 +1,243 @@
+:root {
+    --bg-color: #0d1117;
+    --panel-bg: rgba(22, 27, 34, 0.7);
+    --text-primary: #c9d1d9;
+    --text-secondary: #8b949e;
+    --accent: #58a6ff;
+    --accent-hover: #1f6feb;
+    --success: #2ea043;
+    --danger: #da3633;
+    --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top right, #1a202c, #0d1117);
+}
+
+.app-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+}
+
+.screen {
+    display: none;
+    animation: fadeIn 0.4s ease forwards;
+}
+
+.screen.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    color: var(--text-secondary);
+}
+
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.subject-card {
+    background: var(--panel-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    font-weight: 500;
+}
+
+.subject-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 8px 24px rgba(88, 166, 255, 0.15);
+}
+
+.quiz-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.quiz-header h2 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 6px;
+    background: #21262d;
+    border-radius: 3px;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--accent);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.glass-panel {
+    background: var(--panel-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+}
+
+.question-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.option-btn {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--glass-border);
+    color: var(--text-primary);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+}
+
+.option-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.option-btn.selected {
+    border-color: var(--accent);
+    background: rgba(88, 166, 255, 0.1);
+}
+
+.option-btn.correct {
+    border-color: var(--success);
+    background: rgba(46, 160, 67, 0.1);
+}
+
+.option-btn.wrong {
+    border-color: var(--danger);
+    background: rgba(218, 54, 51, 0.1);
+}
+
+.controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.primary-btn {
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-family: inherit;
+}
+
+.primary-btn:hover {
+    background: var(--accent-hover);
+}
+
+.primary-btn:disabled {
+    background: #21262d;
+    color: var(--text-secondary);
+    cursor: not-allowed;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.icon-btn:hover {
+    color: var(--text-primary);
+}
+
+.result-container {
+    text-align: center;
+}
+
+.result-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--accent);
+}
+
+.final-score {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+#result-message {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}

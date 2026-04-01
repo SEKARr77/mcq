@@ -1,0 +1,41 @@
+Subject: Artificial Intelligence and Machine Learning
+
+Q1. K-Means Clustering is an example of:
+a) Supervised Learning b) Unsupervised Learning c) Reinforcement Learning d) Deep Learning solely
+Ans: b
+
+Q2. Activation functions in neural networks are primarily meant to:
+a) Multiply the data by weights b) Add biases c) Introduce non-linearity into the model d) Discard low values automatically
+Ans: c
+
+Q3. When a model performs excellent on training data but poorly on test data, it is called:
+a) Underfitting b) Overfitting c) Bias-Variance balance d) Smoothing
+Ans: b
+
+Q4. Which algorithm is primarily used for classification problems?
+a) Linear Regression b) Decision Trees c) Both a and b d) Neither
+Ans: b (Logistic would be classification, linear regression is for continuous variables)
+
+Q5. The algorithmic process of minimizing output error in neural nets by updating weights backwards is:
+a) Feed-forward error b) Backpropagation c) Rectification d) Gradient Boosting
+Ans: b
+
+Q6. Reinforcement learning fundamentally relies on learning via:
+a) Labeled dataset pairs b) Interacting with an environment and receiving rewards or penalties c) Finding hidden groupings d) Minimizing squared errors only
+Ans: b
+
+Q7. NLP stands for:
+a) Neural Language Programming b) Natural Language Processing c) Net Logic Protocol d) Native Linters Processing
+Ans: b
+
+Q8. CNNs (Convolutional Neural Networks) are exceptionally good at finding patterns in:
+a) Relational databases b) Images and spatial data c) Random numbers d) Plain text strings
+Ans: b
+
+Q9. In a Support Vector Machine (SVM), the lines segregating classes are called:
+a) Perceptrons b) Hyperplanes c) Decisions d) Support clusters
+Ans: b
+
+Q10. Adding a bias term in a neural network is similar to:
+a) Moving the entire function shape along an axis (y-intercept) b) Changing the slope entirely c) Nullifying negative inputs d) Removing noisy pixels
+Ans: a

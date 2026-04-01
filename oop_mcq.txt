@@ -1,0 +1,41 @@
+Subject: Programming Fundamentals and Object-Oriented Programming (OOP)
+
+Q1. Which of the following is not an OOP concept?
+a) Encapsulation b) Polymorphism c) Compilation d) Inheritance
+Ans: c
+
+Q2. Encapsulation is primarily used to:
+a) Increase speed b) Hide data c) Provide code reuse d) Delete old objects
+Ans: b
+
+Q3. Inheritance in OOP enables:
+a) Data hiding b) Code reusability c) Object destruction d) Memory management
+Ans: b
+
+Q4. Which access modifier restricts access to the defining class only?
+a) Public b) Protected c) Private d) Internal
+Ans: c
+
+Q5. Method overloading is an example of:
+a) Compile-time polymorphism b) Run-time polymorphism c) Encapsulation d) Abstraction
+Ans: a
+
+Q6. What is the process of defining more than one method with the same name but different parameters?
+a) Overriding b) Overloading c) Masking d) Hiding
+Ans: b
+
+Q7. In Java, which keyword is used to prevent a class from being inherited?
+a) static b) final c) abstract d) private
+Ans: b
+
+Q8. A class that cannot be instantiated is called:
+a) Abstract class b) Sealed class c) Final class d) Static class
+Ans: a
+
+Q9. Which feature allows a subclass to provide a specific implementation of a method already provided by its superclass?
+a) Overloading b) Overriding c) Abstraction d) Polymorphism
+Ans: b
+
+Q10. Objects are created using the ____ operator in languages like C++ and Java.
+a) create b) allocate c) new d) make
+Ans: c

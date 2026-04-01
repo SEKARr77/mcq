@@ -1,0 +1,41 @@
+Subject: Compiler Design
+
+Q1. Which phase of the compiler produces tokens?
+a) Lexical Analyzer b) Syntax Analyzer c) Semantic Analyzer d) Code Generator
+Ans: a
+
+Q2. Which phase constructs a parse tree?
+a) Lexical Analyzer b) Syntax Analyzer (Parser) c) Intermediate Code Generator d) Code Optimizer
+Ans: b
+
+Q3. A Symbol Table is used throughout the compiler to:
+a) Minimize tree structures b) Store variable details, scopes, and types c) Compile machine code d) Process linker commands
+Ans: b
+
+Q4. Semantic analysis checks for:
+a) Syntax errors b) Lexical errors c) Type mismatches and logic cohesion d) Intermediate code size
+Ans: c
+
+Q5. YACC is a tool used to generate:
+a) Lexical analyzers b) Syntax analyzers (Parsers) c) Optimized code d) Native assemblers
+Ans: b
+
+Q6. Common Subexpression Elimination is a technique in:
+a) Lexical analysis b) Parsing c) Code optimization d) Symbol table management
+Ans: c
+
+Q7. Top-down parsers normally use:
+a) Rightmost derivation in reverse b) Leftmost derivation c) Non-deterministic derivations d) Bottom-up derivation
+Ans: b
+
+Q8. LR parsers are fundamentally:
+a) Top-down parsers b) Bottom-up parsers c) Predictive parsers d) Recursive descent parsers
+Ans: b
+
+Q9. The output of intermediate code generation is often represented as:
+a) Assembly code b) Three-address code c) Machine code d) Executable
+Ans: b
+
+Q10. An Abstract Syntax Tree (AST) differs from a parse tree in that it:
+a) Omits syntax details like brackets and focuses on semantic structure b) Is much larger c) Only stores variables d) Is read bottom-up
+Ans: a

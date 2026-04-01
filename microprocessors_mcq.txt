@@ -1,0 +1,41 @@
+Subject: Microprocessors and Microcontrollers
+
+Q1. The 8085 microprocessor has how many address lines?
+a) 8 b) 16 c) 20 d) 32
+Ans: b
+
+Q2. The maximum memory that an 8085 microprocessor can address is:
+a) 64 KB b) 1 MB c) 16 MB d) 4 KB
+Ans: a
+
+Q3. An interrupt which cannot be ignored by the microprocessor is called a:
+a) Maskable interrupt b) Non-maskable interrupt (NMI) c) Software interrupt d) Pending interrupt
+Ans: b
+
+Q4. The Program Counter (PC) primarily tracks:
+a) Variable counts b) The memory address of the next instruction to be executed c) Loops in an assembly program d) Arithmetic carries
+Ans: b
+
+Q5. Which is fundamentally true for a microcontroller vs a microprocessor?
+a) Microcontroller has CPU, memory, and I/O on a single chip; microprocessor only has a CPU b) Microcontrollers are much faster c) Microprocessors are embedded mostly in simple devices (like microwaves) d) They are precisely the same string of components
+Ans: a
+
+Q6. The 8086 microprocessor has an instruction queue of what size?
+a) 2 bytes b) 4 bytes c) 6 bytes d) 8 bytes
+Ans: c
+
+Q7. Pipelining in modern processors is intended to:
+a) Decrease overall clock speed b) Allow executing multiple instructions simultaneously overlapping fetch, decode, and execute c) Save cache memory d) Disable software interrupts
+Ans: b
+
+Q8. The ALU flags register includes flags such as:
+a) Zero flag, Carry flag, Sign flag b) Run flag, Halt flag c) Error flag, Debug flag d) Stack flag, Heap flag
+Ans: a
+
+Q9. ARM microcontrollers heavily utilize which architecture principle?
+a) CISC b) RISC c) Both completely heavily d) Neither
+Ans: b
+
+Q10. Serial Communication in microcontrollers usually relies on internal modules like:
+a) DMA b) UART/USART c) Arithmetic Unit d) Timers
+Ans: b

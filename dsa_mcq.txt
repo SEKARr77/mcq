@@ -1,0 +1,41 @@
+Subject: Data Structures and Algorithms (DSA)
+
+Q1. The average case time complexity of Quick Sort is:
+a) O(n) b) O(n log n) c) O(n^2) d) O(log n)
+Ans: b
+
+Q2. Which data structure is used for Breadth-First Search (BFS)?
+a) Stack b) Queue c) Tree d) Graph
+Ans: b
+
+Q3. In a BST, the in-order traversal gives elements in:
+a) Random order b) Decreasing order c) Increasing order d) No specific order
+Ans: c
+
+Q4. Which algorithmic paradigm does Merge Sort use?
+a) Greedy b) Dynamic Programming c) Divide and Conquer d) Backtracking
+Ans: c
+
+Q5. A graph is represented internally mostly through:
+a) Adjacency matrix or Adjacency list b) Hash Table c) Binary Tree d) Stack
+Ans: a
+
+Q6. A hash table collision occurs when:
+a) Two keys map to different indices b) Two keys map to the same index c) Key cannot be hashed d) Hash table is empty
+Ans: b
+
+Q7. The data structure used in evaluating postfix expressions is:
+a) Queue b) Stack c) Linked List d) Array
+Ans: b
+
+Q8. In a max-heap, the parent node is always:
+a) Greater than or equal to its children b) Less than its children c) Fixed to 0 d) Equal to its children
+Ans: a
+
+Q9. Dynamic programming is mainly used to solve:
+a) Shortest path only b) Optimization problems by breaking them into overlapping subproblems c) Sorting algorithms d) Searching arrays
+Ans: b
+
+Q10. An AVL tree maintains its balance factor in the range:
+a) -1 to 1 b) -2 to 2 c) 0 to 2 d) -1 to 0
+Ans: a

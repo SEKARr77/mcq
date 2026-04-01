@@ -1,0 +1,41 @@
+Subject: Software Engineering
+
+Q1. The waterfall model is heavily dependent on:
+a) Early deployment b) Frequent customer feedback c) Upfront planning and clear requirements d) Prototyping
+Ans: c
+
+Q2. Which is a recognized Agile framework?
+a) Scrum b) Spiral c) V-Model d) Waterfall
+Ans: a
+
+Q3. Coupling in software engineering refers to:
+a) The interdependence between modules b) The functional strength inside a single module c) Number of lines of code d) Deployment structures
+Ans: a
+
+Q4. Good software design promotes:
+a) High coupling, low cohesion b) Low coupling, high cohesion c) High coupling, high cohesion d) Low coupling, low cohesion
+Ans: b
+
+Q5. Testing done without looking at internal workings of the software is called:
+a) White-box testing b) Black-box testing c) Gray-box testing d) Unit testing
+Ans: b
+
+Q6. In SDLC, maintenance begins when:
+a) Coding is done b) Testing is done c) Software is deployed to production d) Requirements are gathered
+Ans: c
+
+Q7. UML stands for:
+a) Universal Modeling Language b) Unified Modeling Language c) United Modeling Language d) Unspecified Modeling Language
+Ans: b
+
+Q8. A design pattern dealing with object creation mechanisms is a:
+a) Structural pattern b) Behavioral pattern c) Creational pattern d) Deployment pattern
+Ans: c
+
+Q9. The Singleton pattern ensures:
+a) A class is entirely private b) A class has only one single instance globally c) Only one method is exposed d) Single inheritance is strictly followed
+Ans: b
+
+Q10. Continuous Integration (CI) implies:
+a) Deploying to production continuously b) Developers merge code changes into a central repo frequently, triggering automated tests c) Writing code continuously d) Testing done by customers
+Ans: b

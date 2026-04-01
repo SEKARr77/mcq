@@ -1,0 +1,41 @@
+Subject: Operating Systems (OS)
+
+Q1. Race condition implies:
+a) Execution of instructions in a loop b) The outcome of concurrent executions depends on sequence c) Faster CPU processing d) Multi-threaded scaling
+Ans: b
+
+Q2. Which scheduling algorithms avoids starvation usually?
+a) Round Robin b) FCFS c) SJF d) Priority Scheduling without aging
+Ans: a
+
+Q3. Deadlock requires which of the following conditions to be true?
+a) Mutual exclusion b) Hold and wait c) Circular wait d) All of the above
+Ans: d
+
+Q4. The phenomenon of a process spending more time paging than executing is called:
+a) Context Switch b) Swapping c) Thrashing d) Fragmentation
+Ans: c
+
+Q5. A binary semaphore takes values:
+a) 0 and 1 only b) Any integer c) Only negative values d) Any positive integer
+Ans: a
+
+Q6. Context switching involves:
+a) Turning off the system b) Saving the state of an old process and loading the state of a new process c) Deleting processes from memory d) Swapping hardware
+Ans: b
+
+Q7. Which of the following is an internal fragmentation issue?
+a) Dynamic partitioning b) Paging c) Segmentation d) Virtual memory
+Ans: b
+
+Q8. Fork() is used to:
+a) Kill a process b) Duplicate a file c) Create a new child process d) Change process priority
+Ans: c
+
+Q9. Which memory allocation policy allocates the smallest hole that is big enough?
+a) First-fit b) Best-fit c) Worst-fit d) Next-fit
+Ans: b
+
+Q10. The core component of a Linux-based operating system is its:
+a) Shell b) Terminal c) Kernel d) GUI
+Ans: c

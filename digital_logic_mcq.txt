@@ -1,0 +1,41 @@
+Subject: Digital Logic and Design
+
+Q1. The Boolean expression A + A'B simplifies to:
+a) A b) B c) A + B d) A' + B
+Ans: c
+
+Q2. Which gates are considered universal gates?
+a) AND, OR b) NAND, NOR c) XOR, XNOR d) NOT, NAND
+Ans: b
+
+Q3. A multiplexer with n selector lines has how many inputs?
+a) n b) n^2 c) 2^n d) 2n
+Ans: c
+
+Q4. A flip-flop is a:
+a) Combinational logic circuit bit b) Circuit that stores 1 bit of memory c) A switch d) Gate with 3 inputs
+Ans: b
+
+Q5. Which flip-flop toggles its output exactly when triggered?
+a) D flip-flop b) T flip-flop c) SR flip-flop d) JK flip-flop (with specific inputs)
+Ans: b
+
+Q6. A combinational logic circuit's output depends:
+a) Only on current inputs b) On previous state and inputs c) Only on clocks d) Only on past outputs
+Ans: a
+
+Q7. An encoder converts:
+a) Binary to decimal b) Decimal to BCD or Binary c) Parallel data to serial d) Serial data to parallel
+Ans: b
+
+Q8. Karnaugh-Maps (K-maps) are used to:
+a) Convert analog to digital b) Simplify boolean expressions c) Draw logic gates d) Determine voltage levels
+Ans: b
+
+Q9. The binary equivalent of decimal 13 is:
+a) 1011 b) 1101 c) 1111 d) 1001
+Ans: b
+
+Q10. A full-adder logic circuit adds:
+a) 2 binary bits b) 3 binary bits (two bits and a carry) c) 4 logic bits d) 8 bits
+Ans: b

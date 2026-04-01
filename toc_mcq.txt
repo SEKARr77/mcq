@@ -1,0 +1,41 @@
+Subject: Theory of Computation (Automata Theory)
+
+Q1. Regular languages can be exactly recognized by a:
+a) Pushdown Automaton b) Finite State Machine c) Turing Machine d) Linear Bounded Automaton
+Ans: b
+
+Q2. A Turing Machine is equivalent in computing power to:
+a) Modern digital computers b) FSMs c) Calculators d) Mealy Machines
+Ans: a
+
+Q3. The Pumping Lemma is primarily used to prove that:
+a) A language is regular b) A language is NOT regular c) A language is context-sensitive d) A language is decidable
+Ans: b
+
+Q4. Context-free grammars generate:
+a) Regular languages b) Context-free languages c) Context-sensitive languages d) Recursively enumerable languages
+Ans: b
+
+Q5. Halting problem for Turing machines is:
+a) Decidable b) Undecidable c) Partially decidable d) Computable in O(n)
+Ans: b
+
+Q6. Chomsky hierarchy type 0 languages correspond to:
+a) Finite State Automata b) Pushdown automata c) Turing machines d) Linear Bounded Automata
+Ans: c
+
+Q7. In an NFA, a single input character from a state can lead to:
+a) Only one next state b) Multiple states c) No state at all d) Both b and c
+Ans: d
+
+Q8. A machine that gives an output based on both the current state and the input is called a:
+a) Moore machine b) Mealy machine c) Turing machine d) PDA
+Ans: b
+
+Q9. To parse a context-free language, we conceptually use a:
+a) Stack b) Queue c) Tape d) Registers
+Ans: a
+
+Q10. The complement of a Context-Free Language is:
+a) Always Context-Free b) Always Regular c) Not necessarily Context-Free d) Undecidable
+Ans: c

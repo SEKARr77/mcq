@@ -1,0 +1,41 @@
+Subject: Discrete Mathematics
+
+Q1. In propositional logic, P AND (Q OR R) is equivalent to:
+a) (P OR Q) AND (P OR R) b) (P AND Q) OR (P AND R) c) (P AND Q) AND (P AND R) d) (P OR Q) OR (P OR R)
+Ans: b
+
+Q2. A graph with no cycles is called a:
+a) Complete graph b) Bipartite graph c) Tree d) Directed acyclic graph
+Ans: c
+
+Q3. The number of subsets for a set with n elements is:
+a) n^2 b) 2n c) 2^n d) n!
+Ans: c
+
+Q4. If A and B are disjoint sets, then the cardinality of (A union B) is:
+a) |A| * |B| b) |A| + |B| c) |A| - |B| d) 0
+Ans: b
+
+Q5. A relation which is reflexive, symmetric, and transitive is known as a(n):
+a) Partial order relation b) Equivalence relation c) Empty relation d) Universal relation
+Ans: b
+
+Q6. The Pigeonhole Principle states that if k pigeons are distributed among n holes and k > n:
+a) At least one hole has no pigeon b) At least one hole has exactly 2 pigeons c) At least one hole has more than one pigeon d) All holes are empty
+Ans: c
+
+Q7. Which of the following is the chromatic number of a bipartite graph with at least one edge?
+a) 1 b) 2 c) 3 d) 4
+Ans: b
+
+Q8. In a simple undirected graph, the sum of degrees of all vertices is:
+a) Equal to the number of edges b) Twice the number of edges c) Thrice the number of edges d) Zero
+Ans: b
+
+Q9. De Morgan's Laws state that the complement of (A union B) is:
+a) A' union B' b) A' intersection B' c) A intersection B d) A' intersection B
+Ans: b
+
+Q10. A function f: A -> B is bijective if it is:
+a) Injective only b) Surjective only c) Both injective and surjective d) Neither injective nor surjective
+Ans: c

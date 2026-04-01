@@ -1,0 +1,14 @@
+1. Programming Fundamentals and Object-Oriented Programming (OOP)
+2. Data Structures and Algorithms (DSA)
+3. Computer Architecture and Organization (CAO)
+4. Discrete Mathematics
+5. Operating Systems (OS)
+6. Database Management Systems (DBMS)
+7. Computer Networks
+8. Theory of Computation (Automata Theory)
+9. Compiler Design
+10. Software Engineering
+11. Digital Logic and Design
+12. Microprocessors and Microcontrollers
+13. Artificial Intelligence and Machine Learning
+14. Cryptography and Network Security

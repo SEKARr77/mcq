@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT Mock Interview Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <header>
+                <h1>Bannari Amman Institute</h1>
+                <h2>Mock Interview Preparation</h2>
+                <p>Select a core subject to start your benchmark test</p>
+            </header>
+            <div id="subject-list" class="subject-grid"></div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <header class="quiz-header">
+                <button id="back-btn" class="icon-btn">&larr; Back</button>
+                <h2 id="quiz-title">Subject Name</h2>
+                <div class="score-display">Score: <span id="current-score">0</span></div>
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+            </header>
+
+            <div class="question-container glass-panel">
+                <h3 id="question-text">Question text goes here</h3>
+                <div id="options-container" class="options-container">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <div class="controls" style="justify-content: space-between;">
+                <button id="prev-btn" class="primary-btn" style="background:#444;" disabled>&larr; Previous</button>
+                <button id="next-btn" class="primary-btn" disabled>Next Question &rarr;</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen">
+            <div class="result-container glass-panel">
+                <h2>Test Completed!</h2>
+                <div class="final-score">
+                    <span id="final-score-val">0</span> / <span id="total-questions-val">10</span>
+                </div>
+                <p id="result-message">Great job! Keep practicing.</p>
+                <button id="home-btn" class="primary-btn">Back to Subjects</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load the generated questions -->
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
